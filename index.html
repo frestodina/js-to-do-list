@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS To do list</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+
+    <div class="container">
+    <div class="card">
+        <div class="title">To do List</div>
+    <form action="#" method="#">
+        <label for="task" class="task">Add New Task:</label><br>
+        <input type="text" id="taskInp"><br>
+        <label for="dob" class="date">Date:</label><br>
+        <input type="date" id="date" name="date" min="2023-08-15"><br>
+        <input type="button" value="Add task" id="AddTaskBtn">
+    </form>
+    </div>
+    <div class="card card1">
+        <div class="title">Task List</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="taskList">
+                <tr><td>asd</td></tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+</body>
+</html>
